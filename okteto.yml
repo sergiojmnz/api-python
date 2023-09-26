@@ -10,4 +10,5 @@ dev:
     command: bash
     sync:
     - .:/hackernews
-    
+    forward:
+    - 8000:8000
